@@ -1,0 +1,22 @@
+.store {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f9f9f9;
+    min-height: 100vh;
+    padding-top: 80px;
+  }
+  
+  .store h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  

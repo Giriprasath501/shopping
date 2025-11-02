@@ -1,0 +1,98 @@
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #333;
+    height: 45px;
+    
+  }
+  
+  .card p {
+    color: #666;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 8px;
+  }
+  
+  .quantity-control button {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #eee;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .quantity-control button:hover {
+    background-color: #ddd;
+  }
+  
+  .quantity-control input {
+    width: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+  }
+  
+  .add-to-cart {
+    background-color: #ff6600;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.2s ease;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #e65c00;
+    transform: scale(1.05);
+  }
+  
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type="number"] {
+    appearance: none; 
+  -moz-appearance: textfield;
+}
+
+  
